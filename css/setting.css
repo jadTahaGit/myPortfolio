@@ -1,0 +1,154 @@
+.settings {
+  position: relative;
+}
+
+.settings-icon {
+  color: #fff;
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.settings-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  color: brown;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  padding: 0.4rem;
+  gap: 1.2rem;
+  position: absolute;
+  top: 2rem;
+  left: -8rem;
+  transition: all 0.3s;
+}
+
+.settings-option {
+  cursor: pointer;
+  padding: 0.2rem 0.4rem;
+}
+
+.settings-option:last-child {
+  display: flex;
+  align-items: center;
+  padding-top: 0.4rem;
+}
+
+.settings-option:hover {
+  background-color: brown;
+  color: #fff;
+  border-radius: 2rem;
+}
+
+.animation-setting {
+  position: relative;
+}
+
+.animation-options-box {
+  color: #fff;
+  display: block;
+  background-color: brown;
+  width: fit-content;
+  padding: 0.2rem 0.62rem;
+  border-radius: 2rem;
+  position: absolute;
+  top: 0.8rem;
+  right: 7.3rem;
+}
+
+.animation-options-box ul {
+  display: flex;
+  gap: 0.2rem;
+}
+
+.animation-options-box ul li {
+  padding: 0.2rem 0.4rem;
+}
+
+.animation-options-box ul li:hover {
+  background-color: #fff;
+  color: brown;
+  border-radius: 2rem;
+}
+
+.view-setting {
+  position: relative;
+}
+
+.view-options-box {
+  color: #fff;
+  display: block;
+  background-color: brown;
+  width: fit-content;
+  padding: 0.36rem 0.62rem;
+  border-radius: 2rem;
+  position: absolute;
+  top: -0.36rem;
+  right: 3.6rem;
+}
+
+.view-options-box ul {
+  display: flex;
+  gap: 0.2rem;
+}
+
+.view-options-box ul li {
+  padding: 0.2rem 0.4rem;
+}
+
+.view-options-box ul li:hover {
+  background-color: #fff;
+  color: brown;
+  border-radius: 2rem;
+}
+
+.lang-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.lang-menu img {
+  width: 30px;
+  height: auto;
+}
+
+.lang-menu ul {
+  background-color: brown;
+  display: flex;
+  flex-direction: column;
+  padding: 0.4rem;
+  border-radius: 2rem;
+  position: absolute;
+  top: -0.6rem;
+  left: -0.2rem;
+  gap: 0;
+}
+
+.lang-menu ul li {
+  list-style: none;
+}
+
+.lang-menu ul li a {
+  display: flex;
+  padding: 0.32rem;
+  border-radius: 50%;
+}
+
+.lang-menu ul li a:hover {
+  background-color: #fff;
+}
+
+/* Hide All setting Boxes */
+
+.settings-box,
+.view-options-box,
+.animation-options-box,
+.lang-menu ul {
+  display: none;
+}

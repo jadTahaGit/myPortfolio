@@ -9,6 +9,8 @@
 
     <title>Jad Taha</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/hover.css" />
+    <link rel="stylesheet" href="css/setting.css" />
     <link rel="stylesheet" href="css/animations.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,25 +22,62 @@
   <body>
     <nav>
       <img class ="profile-img" src="img/profile.png" alt="" />
-      <ul> 
-        <li>   
-          <div class="lang-menu">
-          <div class="selected-lang"><img src="/img/american.png" /></div>
-          <ul>
-            <li>
-              <a ><img src="/img/american.png" /></a>
-            </li>
-            <li>
-              <a ><img src="/img/german.png" /></a>
-            </li>
-          </ul>
+      <ul>      
+        <li class="nav-link">
+          <ion-icon class="nav-icon" name="home-outline"></ion-icon>
+          <ion-icon class="nav-icon-2" name="home"></ion-icon>
+          <a href="#home">Home</a></li>
+        <li class="nav-link">
+          <ion-icon class="nav-icon" name="person-circle-outline"></ion-icon>
+          <ion-icon class="nav-icon-2" name="person-circle"></ion-icon>
+          <a href="#portfolio">Portfolio</a></li>
+        <li class="nav-link">
+          <ion-icon class="nav-icon" name="mail-outline"></ion-icon>
+          <ion-icon class="nav-icon-2" name="mail"></ion-icon>
+          <a href="#contact">Contact</a></li>
+        <li class="nav-link">
+          <ion-icon class="nav-icon" name="happy-outline"></ion-icon>
+          <ion-icon class="nav-icon-2" name="happy"></ion-icon>
+          <a href="#contact">About Me</a></li>
+        <li class="settings"><ion-icon class="settings-icon" name="settings">
+        </ion-icon>
+        <div class="settings-box">
+          <div class="settings-option animation-setting">animations
+
+            <div class="animation-options-box">
+              <ul>
+                  <li>on</li>
+                  <li>off</li>
+              </ul>          
+            </div>
+
           </div>
-      </li>       
-        <li class="nav-link"><a href="#home">Home</a></li>
-        <li class="nav-link"><a href="#portfolio">Portfolio</a></li>
-        <li class="nav-link"><a href="#contact">Contact</a></li>
-        <li class="nav-link"><a href="#contact">About Me</a></li>
-        <li class="nav-link"><ion-icon class="settings-icon" name="settings"></ion-icon></li>
+          <div class="settings-option view-setting">  
+          View 
+          <div class="view-options-box">
+            <ul>
+                <li>sidebar</li>
+                <li>navbar</li>
+            </ul>          
+          </div>
+          </div>
+          <div class="lang-menu settings-option">
+            <div class="selected-lang"><img src="/img/american.png" /></div>
+            <ul>
+              <li>
+                <a ><img src="/img/american.png" /></a>
+              </li>
+              <li>
+                <a ><img src="/img/german.png" /></a>
+              </li>
+            </ul>
+            </div>
+
+          </div>          
+        <div>
+      
+        
+        </li>
       </ul>
     </nav>
     <main>
@@ -124,7 +163,7 @@
       </section>
     </main>
 
-    <!-- <script src="js/mobileNav.js"></script> -->
+    <script src="js/settings.js"></script>
     <script src="js/lang.js"></script>
     <script
       type="module"
