@@ -1,0 +1,15 @@
+project-time
+---------------------------------------------------------
+project-content:
+- project-text:
+                project-title
+                project-subtitle
+                project-description
+                project-description
+                project-ul
+                project-ul/project-list
+                technologies-tags
+                technologies-tags/tech-heading
+                technologies-tags/tag
+
+- project-img: 
